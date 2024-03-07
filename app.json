@@ -32,38 +32,40 @@
     },
     "NOT_OWNER_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Owner only",
-      "required": true
+      "required": false
     },
     
     
     "BOT_ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires bot to be admin is violated. Example: Bot is not admin!",
-      "required": true
+      "required": false
     },
     "ADMIN_MSG": {
       "description": "Put a message that the bot will send if a parameter that requires only owner user is violated. Example: Only admins are allowed to use this command",
-      "required": true
+      "required": false
     },
     "BAD_WORD": {
       "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
       "required": false
     },
     "BAD_WORD_KICK": {
-      "description": "Put here true if you want the bot to automatically kick group members using words that you have listed as bad",
-      "required": false
+      "description": "Put here TRUE if you want the bot to automatically kick group members using words that you have listed as bad",
+      "value": "FALSE",
+      "required": true
     },
     "GROUP_ONLY_MSG": {
       "description": "Put a message that the bot will send if a parameter that works in group chats only is violated. Example: This command will work in groups only",
-      "required": true
+      "value": "",
+      "required": false
     },
       "AUTOREAD": {
-      "description": "Put here true if you want bot to automatically bluetick messages in private chats and groups",
-      "value": "false",
+      "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats and groups",
+      "value": "FALSE",
       "required": true
 },
  "AUTOVIEW": {
-      "description": "Input true if you want bot to automatically read status update",
-      "value": "true",
+      "description": "Input TRUE if you want bot to automatically read status update",
+      "value": "TRUE",
       "required": true
 },
  "WA_PRESENCE": {
@@ -72,31 +74,33 @@
       "required": false
 },
  "ANTILINK": {
-      "description": "Input true if you want bot to kick link senders",
+      "description": "Input TRUE if you want bot to kick link senders",
+      "value"; "FALSE",
       "required": false
 },
  "ANTILINK_ALL": {
-      "description": "Input true if you want bot to kick users sending any links.",
+      "description": "Input TRUE if you want bot to kick users sending any links.",
+      "value": "FALSE",
       "required": false
 },
  "ANTIBOT": {
-      "description": "Input true if you want bot to kick other bots from group",
-      "value": "false",
+      "description": "Input TRUE if you want bot to kick other bots from group",
+      "value": "FALSE",
       "required": true
 },
  "WELCOME": {
-      "description": "Input true if you want bot to send welcome message to new members.",
-      "value": "false",
+      "description": "Input TRUE if you want bot to send welcome message to new members.",
+      "value": "FALSE",
       "required": true
 },
  "ANTIFOREIGN": {
-      "description": "Input true if you want bot to kick non-kenyan numbers joining.",
-      "value": "false",
+      "description": "Input TRUE if you want bot to kick non-kenyan numbers joining.",
+      "value": "FALSE",
       "required": false
 },
  "AUTOBIO": {
-      "description": "Input true if you want bot to autoupdate its about with current time and date.",
-      "value": "false",
+      "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
+      "value": "FALSE",
       "required": true
 },
  "APP_NAME": {
@@ -115,14 +119,14 @@
       "required": true
 },
  "GPT_INBOX": {
-      "description": "Input true if you want bot to autoreply inbox messages using openai API.",
-      "value": "false",
+      "description": "Input TRUE if you want bot to autoreply inbox messages using openai API.",
+      "value": "FALSE",
       "required": false
 },
  "MENU_TYPE": {
-      "description": "Input either VIDEO, or IMAGE LINK. This will allow bot to display different dynamic menu types",
-      "value": "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
-      "required": true
+      "description": "Input either VIDEO, or IMAGE or TEXT. This will allow bot to display different dynamic menu types",
+      "value": "IMAGE",
+      "required": false
 
     
     
