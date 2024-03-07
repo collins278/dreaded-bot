@@ -1,5 +1,5 @@
 {
-  "name": "dreaded-bot",
+  "name": "dreaded-bot@V.2.0.0",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -125,7 +125,7 @@
 },
  "MENU_TYPE": {
       "description": "Input either VIDEO, or IMAGE or TEXT. This will allow bot to display different dynamic menu types",
-      "value": "IMAGE",
+      "value": "VIDEO",
       "required": false
 
     
