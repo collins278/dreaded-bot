@@ -1839,7 +1839,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/54efddccf41281ad7ec51.jpg' }, caption: `Hello ${m.pushName}, Dreaded is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://giftedgpt.vercel.app/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/54efddccf41281ad7ec51.jpg' }, caption: `Hello ${m.pushName}, Gifted-Dreaded-Bot is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://giftedgpt.vercel.app/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1981,7 +1981,7 @@ case "movie":
  break;
  
           case "script": case "repo": case "sc": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/54efddccf41281ad7ec51.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Giftedmaurice/dreaded-bot\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@mauricegift045/Gifted-Dreaded-Bot\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\nMade in Kenya by Giftedtech!` }, {quoted: m}); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/54efddccf41281ad7ec51.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Giftedmaurice/dreaded-bot\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@mauricegift045/Gifted-Dreaded-Bot\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\nBot Made in Kenya!\n\nBy ɢɪғᴛᴇᴅ ᴛᴇᴄʜ🔥!` }, {quoted: m}); 
   
  break; 
 
