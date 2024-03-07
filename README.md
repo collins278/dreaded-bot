@@ -1,3 +1,5 @@
+[![Gifted Dreaded Bot](https://readme-typing-svg.demolab.com?font=Anton&size=30&pause=998&color=1FC40A&background=F7F2F20A&align=center&random=false&width=800&lines=Hello+Everyone%F0%9F%91%8B!;I+am+Gifted+Dreaded+Bot;I+am+Programmed+by+Gifted+Tech;Gifted+Tech+is+a+Self+Learned+Fronted+Developer;He+is+from+East+Africa-Kenya)](https://github.com/Giftedmaurice/dreaded-bot)
+
 # DREADED-BOT
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
